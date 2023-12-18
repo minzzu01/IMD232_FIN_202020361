@@ -3,7 +3,7 @@
 // link:https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=2&t=1s
 
 const PARTICLE_SIZE = 16; // Particle size
-const RESOLUTION = 10;
+const RESOLUTION = 10; //
 const MAX_FORCE = 150;
 const MIN_FORCE = 0;
 
