@@ -33,9 +33,11 @@ function draw() {
   });
 }
 
-// youtube Web Bae / link:https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=2&t=1s
+// pixel particle화 + array
+// youtube Web Bae
+// link:https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=2&t=1s
 
-function spawnParticles() {
+function arrayParticles() {
   for (let i = 0; i < width; i += RESOLUTION) {
     for (let j = 0; j < height; j += RESOLUTION) {
       let x = (i / width) * img.width;
