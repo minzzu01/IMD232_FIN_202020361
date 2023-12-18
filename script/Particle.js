@@ -36,6 +36,7 @@ class Particle {
 
     // 목표 위치로 향한느 인력 힘 계산
     if (distanceToTarget > 0) {
+      // 목표까지 거리>0 -> 거리에 따라 인력 힘 계산하고 totalForce에 추가
       let attractionForce = map(distanceToTarget, 0, 400, MIN_FORCE, MAX_FORCE);
       fromParticleToTarget.setMag(attractionForce);
       totalForce.add(fromParticleToTarget);
