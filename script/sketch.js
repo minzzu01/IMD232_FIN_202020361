@@ -12,6 +12,7 @@ let img;
 let img2;
 let particles = [];
 
+// p5.js loadImage()
 function preload() {
   img = loadImage('./assets/redScarf.png');
   img2 = loadImage('./assets/grandma.png');
