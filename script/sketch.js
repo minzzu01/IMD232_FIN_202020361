@@ -1,5 +1,5 @@
 // pixel particle화 + spawnParticle()
-// youtube Web Bae
+// youtuber Web Bae
 // link:https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=2&t=1s
 
 const PARTICLE_SIZE = 16; // Particle size
