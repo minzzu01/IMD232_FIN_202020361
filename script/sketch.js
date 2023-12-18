@@ -1,3 +1,7 @@
+// pixel particle화 + spawnParticle()
+// youtube Web Bae
+// link:https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=2&t=1s
+
 const PARTICLE_SIZE = 16; // Particle size
 const RESOLUTION = 10;
 const MAX_FORCE = 150;
@@ -32,10 +36,6 @@ function draw() {
     particle.draw();
   });
 }
-
-// pixel particle화 + spawnParticle()
-// youtube Web Bae
-// link:https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=2&t=1s
 
 function spawnParticles() {
   for (let i = 0; i < width; i += RESOLUTION) {
