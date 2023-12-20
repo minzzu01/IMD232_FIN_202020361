@@ -1,5 +1,5 @@
 // pixel particle화 + spawnParticle()
-// youtuber Web Bae
+// youtuber Web Bae 참고
 // link:https://www.youtube.com/watch?v=_gz8FMduwRc&list=LL&index=2&t=1s
 
 const PARTICLE_SIZE = 16; // Particle size
@@ -21,7 +21,7 @@ function preload() {
 function setup() {
   createCanvas(800, 800);
 
-  // 캔버스를 중앙에 고정시키기 위한
+  // 캔버스를 중앙에 고정시키기 위한 코드
   let canvasElement = document.querySelector('canvas');
   canvasElement.style.display = 'block';
   canvasElement.style.margin = 'auto';
